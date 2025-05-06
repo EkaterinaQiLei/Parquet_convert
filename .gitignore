@@ -2,3 +2,7 @@ __pycache__/
 *.ipynb
 *.xlsx
 *.csv
+__pycache__/
+*.ipynb
+*.xlsx
+*.csv
