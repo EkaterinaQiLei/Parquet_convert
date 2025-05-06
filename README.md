@@ -1,2 +1,4 @@
 # Parquet_convert
-Joins and converts parquet files to one csv file
+
+This script reads all `.parquet` files from the `parquet/` directory, merges them into a single dataset,
+and exports the result to both `.csv` and `.xlsx` formats.
