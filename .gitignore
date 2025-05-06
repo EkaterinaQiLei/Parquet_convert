@@ -1,8 +1,20 @@
+# Ignore Python bytecode files
 __pycache__/
+*.py[cod]
+
+# Ignore Jupyter notebooks
 *.ipynb
+.ipynb_checkpoints/
+
+# Ignore data files
 *.xlsx
 *.csv
-__pycache__/
-*.ipynb
-*.xlsx
-*.csv
+
+# Ignore virtual environment folder (if it's not used)
+venv/
+
+# Ignore IDE files (for example, PyCharm)
+.idea/
+
+# Ignore system-specific files (for example, macOS)
+.DS_Store
